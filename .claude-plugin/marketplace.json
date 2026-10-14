@@ -3,12 +3,17 @@
   "owner": {
     "name": "vmatt"
   },
-  "description": "Claude Code utilities: cheap context compaction via Cerebras",
+  "description": "Claude Code utilities: cheap context compaction via Cerebras, meeting summaries",
   "plugins": [
     {
       "name": "fc",
       "source": "./plugins/fc",
       "description": "Offload context compaction to Cerebras Qwen (qwen-3.8-27b) and prepare HANDOFF.md"
+    },
+    {
+      "name": "meeting-summary",
+      "source": "./plugins/meeting-summary",
+      "description": "Summarize meetings from Teams transcripts (.vtt/.json) or audio recordings (.m4a/.wav, local mlx-whisper)"
     }
   ]
 }

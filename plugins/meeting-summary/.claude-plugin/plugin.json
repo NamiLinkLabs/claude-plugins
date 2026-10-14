@@ -1,0 +1,9 @@
+{
+  "name": "meeting-summary",
+  "description": "Summarize meetings from Teams transcripts (.vtt/.json) or audio recordings (.m4a/.wav, local mlx-whisper)",
+  "version": "0.1.3",
+  "author": {
+    "name": "vmatt"
+  },
+  "keywords": ["meeting", "transcript", "summary", "teams", "whisper"]
+}
